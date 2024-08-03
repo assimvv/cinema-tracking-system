@@ -2,11 +2,10 @@ import java.util.ArrayList;
 
 public class User {
 
-    private String name; // "Alice", "Bob" ...
-    private int id; // 0, 1, 2, 3 ...
+    private String name;
+    private int id;
     private ArrayList<Ticket> tickets;
 
-    // constructor
     public User(int id, String name) {
         this.name = name;
         this.id = id;

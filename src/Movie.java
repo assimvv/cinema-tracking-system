@@ -9,7 +9,6 @@ public class Movie {
     }
 
     public String toString() {
-//        return "Movie with name " + this.movieName + " and ID " + this.id;
         return this.id + ": " + this.movieName;
     }
 
